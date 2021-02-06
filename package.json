@@ -4,5 +4,9 @@
   "main": "index.js",
   "repository": "https://github.com/umairyounus1997/TodoApp.git",
   "author": "Umair Younus <41501844+umairyounus1997@users.noreply.github.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "private": true,
+  "workspaces":[
+    "packages/*"
+  ]
 }
