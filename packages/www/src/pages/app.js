@@ -9,7 +9,7 @@ let Dash = () => {
    
 //    const {user} = netlifyIdentity.currentUser();
   const {user} = useContext(IdentityContext);
-  const { user, identity: netlifyIdentity } = useContext(IdentityContext);
+  // const { user, identity: netlifyIdentity } = useContext(IdentityContext);
 
     // return <div>{ user && user.user_metadata.full.name}</div>
 
