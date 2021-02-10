@@ -1,6 +1,7 @@
 const React = require ('react');
-const { ThemeProvider } =require('theme-ui');
+const { ThemeProvider } = require('theme-ui');
 const {swiss} = require('@theme-ui/presets');
+const {Provider} = require("./netlifyIdentifyContext");
 
 const newTheme = {
   ...swiss,
